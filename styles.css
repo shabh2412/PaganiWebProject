@@ -1,0 +1,128 @@
+body {
+  background-image: linear-gradient(270deg, black, white);
+}
+#homepage-heading {
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+  border-radius: 55%;
+  width: 13rem;
+  font-family: "Lexend Exa", sans-serif;
+  border-color: white;
+  border-style: dotted;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  left: 0%;
+}
+a {
+  text-decoration: none;
+}
+
+#smthg {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Merriweather", monospace;
+  color: rgba(245, 120, 0, 1);
+  margin-right: 5%;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: rgba(34, 20, 8, 0.5);
+  padding: 10px 2px 2px 20px;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 5px 2px 10px 1px rgba(255, 0, 0, 0.5),
+    -5px 2px 10px 1px rgba(255, 0, 0, 0.5);
+}
+
+.small-image {
+  height: 50%;
+  width: 50%;
+  padding: 0px;
+  border-radius: 2%;
+}
+.small-image:hover {
+  box-shadow: 5px 2px 10px 1px rgba(0, 0, 0, 0.5),
+    -5px 2px 10px 1px rgba(0, 0, 0, 0.5), 5px -1px 10px 1px rgba(0, 0, 0, 0.5),
+    -5px -1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+#home-h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  text-align: center;
+  border: 5px solid grey;
+  background-color: grey;
+  margin-top: 2em;
+}
+
+#home-h1:hover {
+  animation-name: pagani-hover;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pagani-hover {
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: grey;
+  }
+  75% {
+    background-color: white;
+  }
+}
+
+.utb {
+  font-family: "Lobste", cursive;
+  font-size: 2rem;
+  color: black;
+  background-color: rgba(255, 101, 45, 0.73);
+}
+#para {
+  background-color: rgba(102, 57, 16, 0.267);
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+#p-road {
+  font-family: inherit;
+  background-color: rgba(204, 109, 20, 0.267);
+}
+
+.ball {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 101, 45, 0.73);
+  animation-name: scroll-ball;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes scroll-ball {
+  0% {
+    background-color: white;
+    top: 50px;
+  }
+  100% {
+    background-color: black;
+    top: 10px;
+  }
+}
+
+p {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: black;
+}
